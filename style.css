@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+  --bg-color: #EBEBEB;
+
+}
+
+  body {
+  font-family: Arial, sans-serif;
+  overflow-x:hidden;
+  height: 100vh;
+  }
+  
+  /* Header na parte superior */
+  .header-top {
+    background-color: #b44545; /* Primeira cor de vermelho */
+    color: #ffffff; /* Cor do texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;
+  }
+  .header-top__logo {
+    
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #0d00ff;
+  }
+  
+  .header-top__logo h1 {
+    width: 300px;
+    text-align: center;
+    background-color: #CC0000;
+    
+  }
+
+
+  .header-top__logo img {
+    width: 80px;
+    height: 80px; 
+    
+  }
+  
+  
+  .header-top__gestion a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  /* Header na parte inferior */
+  .header-bottom {
+    background-color: #CC0000; /* Segunda cor de vermelho */
+    color: #FFFFFF; /* Cor do texto */
+    padding: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .header-bottom ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  
+  .header-bottom li {
+    margin: 0 10px;
+    
+  }
+  
+  .header-bottom a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Estilos para a seção de depoimentos */
+.depoimentos {
+    background-color: #edebeb; /* Cor de vermelho para a seção de depoimentos */
+    padding: 20px;
+    text-align: center;
+   
+  }
+  
+  .depoimentos__titulo {
+    color: #ff0000; /* Cor do texto do título */
+  }
+  
+  .depoimentos__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .cards {
+    background-color: white; 
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    box-shadow: 10px 5px 5px rgb(255, 0, 0);
+    border: 10px red;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 20px;
+   }
+  
+  .card h3 {
+    color: #FF0000; /* Cor do texto do título do card */
+  }
+  
+  .card p {
+    color: #000000; /* Cor do texto do parágrafo do card */
+  }
+  
+  /* Estilos para a seção de Mural */
+.mural {
+    background-color: #EBEBEB; /* Cor de vermelho para a seção de Mural */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .mural__titulo {
+    color: #ff0000; /* Cor do texto do título */
+  }
+  
+  .mural__imagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    grid-template-rows: repeat(2, 200px); /* Duas linhas */
+    gap: 10px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  
+  .mural__imagens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz com que a imagem preencha todo o espaço do elemento */
+  }
+
+  /* Estilos para o footer */
+.footer {
+    background-color: #CC0000; /* Cor de vermelho para o footer */
+    padding: 20px;
+    color: #FFFFFF; /* Cor do texto no footer */
+    text-align: center;
+    height: 300px;
+    margin-top: 100px;
+  }
+  
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer__logo img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .footer__contact p {
+    margin: 5px 0;
+  }
+  
+  .footer__social {
+    margin-top: 20px;
+  }
+  
+  .footer__social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+
+
+
+  
+ 
