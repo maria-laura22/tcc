@@ -1,6 +1,6 @@
 @media screen and (min-width: 900px) and (max-width: 1040px) {
     .cards {
-      background-color: #00aaff;
+     
       width: 700px; 
       height: 350px;
       display: flex;
@@ -21,7 +21,7 @@
       width: 500px; 
       height: 350px;
       display: flex;
-      background-color: blueviolet; 
+     
      }
      
   }
@@ -31,7 +31,7 @@
     width: 500px; 
     height: 450px;
     display: flex;
-    background-color: rgb(52, 226, 43); 
+   
    }
 
    .header-top {
