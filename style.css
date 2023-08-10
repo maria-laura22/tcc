@@ -30,33 +30,42 @@ html, body {
     display: flex;
     align-items: center;
     gap: 30px;
-    background-color: #0d00ff;
   }
   
   .header-top__logo h1 {
     width: 300px;
-    text-align: center;
-    background-color: #CC0000;
-    
+    text-align: center;  
   }
-
 
   .header-top__logo img {
     width: 80px;
     height: 80px; 
-    
   }
-  
-  
+
   .header-top__gestion a {
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 1.4rem;
+  }
+  .header-top__gestion {
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    display:flex;
+    margin-right: 40px;
+    gap: 10px;
+  }
+  .icongestao img{
+    width: 50px;
   }
   
+  
+  /* ======================== */
   /* Header na parte inferior */
+  /* ======================== */
   .header-bottom {
-    background-color: #CC0000; /* Segunda cor de vermelho */
-    color: #FFFFFF; /* Cor do texto */
+    background-color: #bd2424; 
+    color: #FFFFFF; 
     padding: 10px;
     font-size: 1.3rem;
     display: flex;
@@ -69,7 +78,9 @@ html, body {
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    padding: 0;
+    gap: 80px;
   }
   
   .header-bottom li {
@@ -103,7 +114,6 @@ html, body {
     margin-top: 20px;
     gap: 50px;
     flex-wrap: wrap;
-    
   }
   
   .cards {
