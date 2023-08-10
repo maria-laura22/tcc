@@ -1,19 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    
+   
 }
+
+html, body {
+  overflow-x: hidden;
+ }
+
 :root {
   --bg-color: #EBEBEB;
 
 }
 
-  body {
-  font-family: Arial, sans-serif;
-  overflow-x:hidden;
-  height: 100vh;
-  }
-  
   /* Header na parte superior */
   .header-top {
     background-color: #b44545; /* Primeira cor de vermelho */
@@ -70,9 +69,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 30px;
-    
+    align-items: center; 
   }
   
   .header-bottom li {
