@@ -7,6 +7,13 @@
       
      }
   }
+  *{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+/*========================================*/
+/*========================================*/
 
   @media screen and (min-width: 600px) and (max-width: 900px) {
     .cards {
@@ -14,25 +21,65 @@
       height: 350px;
       display: flex; 
      }
+
+     .header-bottom ul {
+      gap: 40px;
+    }
   }
-  
+
+  *{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+/*========================================*/
+/*========================================*/
+
+
+
+
+/*========================================*/
+/*========================================*/
   @media screen and (min-width: 480px) and (max-width: 600px){
     .cards {
       width: 500px; 
       height: 350px;
       display: flex;
-     
-     }
-     
+     }   
+    
+
+    *{
+      padding: 0;
+      margin: 0;
+      gap: 0;
+    }
+  }
+/*========================================*/
+/*========================================*/
+
+
+
+
+
+/*========================================*/
+/*========================================*/
+
+@media screen and (max-width: 480px) {
+  ul {
+    padding: 0;
+    margin: 0;
+    
   }
 
 
-
-@media screen and (max-device-width: 480px) {
+.depoimentos__cards{
+  gap: 30px;
+}
   .cards {
     width: 500px; 
     height: 450px;
     display: flex;
+    font-size: 0.9rem;
    }
 
    .header-top {
@@ -43,27 +90,34 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+    gap: 25px;
+    padding: 10px;
    
   }
 
   .header-top__logo {
-    width: 220px;
+    width: 140px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
-    background-color: none;
+    gap: 0px;
+   
   }
   
   .header-top__logo h1 {
     width: 130px;
     text-align: center;
     font-size: 1.1rem;
-    background-color: none;
+    
   }
   .header-top__logo img {
     width: 50px;
-    height: 50px;     
+    height: 50px; 
+       
+  }
+
+  .header-bottom ul{
+    gap: 0;
   }
 
   .header-bottom{
@@ -74,23 +128,19 @@
     align-items: center;
     justify-content: center;
   }
-} 
-.header-bottom ul {
-  gap:0;
+ 
+  .header-top__gestion a {
+    font-size: 1.0rem;
+  }
+  .header-top__gestion {
+    margin-right: 0px;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .icongestao img {
+    width: 20px;
+  }
 }
-
-.header-top__gestion a {
-  font-size: 1.1rem;
-}
-.header-top__gestion {
-  margin-right: 0px;
-  gap: 10px;
-  
-}
-.icongestao img{
-  width: 20px;
-}
-
 /*
 @media screen and (min-width: 480px) and (max-width: 1040px) {
 	.cards {
