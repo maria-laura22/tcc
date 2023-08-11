@@ -12,7 +12,9 @@ html, body {
   --bg-color: #EBEBEB;
 
 }
-
+main{
+  background-color: var(--bg-color);
+}
   /* Header na parte superior */
   .header-top {
     background-color: #b44545; /* Primeira cor de vermelho */
@@ -42,6 +44,8 @@ html, body {
     width: 80px;
     height: 80px; 
   }
+
+
 
   .header-top__gestion a {
     color: #FFFFFF;
@@ -84,7 +88,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 0;
-    gap: 100px;
+    gap: 35px;
   }
   
   .header-bottom li {
@@ -95,7 +99,13 @@ html, body {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.2s;
   }
+  .header-bottom a:hover {
+    
+    border-bottom: 3px  solid #fff7f7;
+  }
+  
 
   /* Estilos para a seção de depoimentos */
 .depoimentos {
