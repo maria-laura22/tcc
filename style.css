@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -15,9 +16,11 @@ html, body {
 main{
   background-color: var(--bg-color);
 }
+
+
   /* Header na parte superior */
   .header-top {
-    background-color: #b44545; /* Primeira cor de vermelho */
+    background-color: #c91212; /* Primeira cor de vermelho */
     color: #ffffff; /* Cor do texto */
     display: flex;
     justify-content: space-between;
@@ -25,54 +28,63 @@ main{
     flex-direction: row;
     padding: 30px;
     width: 100%;
+    padding: 30px 120px 30px 120px;
   }
   .header-top__logo {
-    
+   
     width: 400px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 0px;
   }
   
   .header-top__logo h1 {
     width: 300px;
     text-align: center;
-    margin: 0;  
+    margin: 0;
+   
   }
 
   .header-top__logo img {
-    width: 80px;
-    height: 80px; 
+    width: 100px;
+    height: 100px; 
+ 
   }
-
-
 
   .header-top__gestion a {
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: bold;
   }
-  .header-top__gestion {
-    align-items: center;
-    width: 100px;
-    height: 40px;
-    display:flex;
-    margin-right: 40px;
-    gap: 10px;
-    
-  }
 
+  .header-top__gestion {
+    margin-right: 0px;
+    gap: 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    transition: 0.3s;
+  }
+  /*.header-top__gestion:hover {
+  width: 110px;
+    height: 110px;
+    border: 5px solid white;
+    border-radius: 50%;
+  }*/
   .icongestao img{
-    width: 60px;
+    width: 50px;
   }
   
   
+
+
   /* ======================== */
   /* Header na parte inferior */
   /* ======================== */
   .header-bottom {
-    background-color: #bd2424; 
+    background-color: #950303; 
     color: #FFFFFF; 
     padding: 10px;
     font-size: 1.3rem;
@@ -89,6 +101,7 @@ main{
     align-items: center;
     padding: 0;
     gap: 35px;
+    margin: 0;
   }
   
   .header-bottom li {
@@ -106,6 +119,8 @@ main{
     border-bottom: 3px  solid #fff7f7;
   }
   
+
+
 
   /* Estilos para a seção de depoimentos */
 .depoimentos {
@@ -133,42 +148,51 @@ main{
   .cards {
     background-color: rgb(255, 255, 255);
     padding: 33px;
-    width: 300px;
+    width: 330px;
     height: 600px;
-    box-shadow: 10px 5px 5px rgb(255, 0, 0);
+   box-shadow: 10px 5px 5px rgb(255, 0, 0);
     display: flex;
+    
     border-radius: 13px;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    transition: 0.5s;
+    
 }
-  
+.cards:hover{
+    transform: scale(1.05);
+    
+}
+
+
   .cards h3 {
     color: #cb1515; 
     
   }
   .cards p {
     color: #000000; 
-    
+    font-size: 1rem;
   }
+
   
 
   
-  /* Estilos para a seção de Mural */
+  
 .mural {
     background-color: #EBEBEB; 
     text-align: center;
   }
   
   .mural__titulo {
-    color: #ff0000; /* Cor do texto do título */
+    color: #ff0000; 
   }
   
   .mural__imagens {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
-    grid-template-rows: repeat(2, 200px); /* Duas linhas */
-    gap: 10px; /* Espaçamento entre as imagens */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 200px); 
+    gap: 10px; 
     margin-top: 20px;
     margin-left: 300px;
     margin-right: 300px;
@@ -177,14 +201,18 @@ main{
   .mural__imagens img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Faz com que a imagem preencha todo o espaço do elemento */
+    object-fit: cover;  
   }
+
+
+
+
 
   /* Estilos para o footer */
 .footer {
-    background-color: #CC0000; /* Cor de vermelho para o footer */
+    background-color: #CC0000; 
     padding: 20px;
-    color: #FFFFFF; /* Cor do texto no footer */
+    color: #FFFFFF; 
     text-align: center;
     height: 300px;
     margin-top: 100px;
