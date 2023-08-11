@@ -99,7 +99,7 @@ main{
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
-    transition: all 0.2s;
+    transition: all 0.1s;
   }
   .header-bottom a:hover {
     
@@ -125,34 +125,38 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    gap: 80px;
+    gap: 130px;
     flex-wrap: wrap;
+    margin: 50px 0px 70px 0px;
   }
 
   .cards {
-    background-color: white; 
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 33px;
     width: 300px;
     height: 600px;
     box-shadow: 10px 5px 5px rgb(255, 0, 0);
-    border: 10px red;
-    flex-wrap: wrap;
     display: flex;
-    border-radius: 20px;
-   }
+    border-radius: 13px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
   
-  .card h3 {
-    color: #FF0000; /* Cor do texto do título do card */
+  .cards h3 {
+    color: #cb1515; 
+    
+  }
+  .cards p {
+    color: #000000; 
+    
   }
   
-  .card p {
-    color: #000000; /* Cor do texto do parágrafo do card */
-  }
+
   
   /* Estilos para a seção de Mural */
 .mural {
-    background-color: #EBEBEB; /* Cor de vermelho para a seção de Mural */
-    padding: 20px;
+    background-color: #EBEBEB; 
     text-align: center;
   }
   
