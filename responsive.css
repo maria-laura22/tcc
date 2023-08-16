@@ -177,9 +177,23 @@
   @media screen and (min-width: 480px) and (max-width: 600px){
     .cards {
       width: 500px; 
-      height: 350px;
+      height: 400px;
       display: flex;
      }   
+
+     .depoimentos__cards {
+      gap: 30px;
+      margin-top: 10px;
+     }
+
+     .depoimentos__titulo {
+      font-size: 2rem;
+     }
+
+     .mural__imagens {
+      margin: 40px;
+     }
+
      .header-top {
       background-color: #d02711; 
       color: #ffffff; 
