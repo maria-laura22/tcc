@@ -1,37 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 
 *{
     margin: 0;
     padding: 0;
-   
+    font-family: 'Poppins', sans-serif;
+    
+    
 }
 
 html, body {
   overflow-x: hidden;
  }
 
+a{
+  text-decoration: none;
+}
+
 :root {
-  --bg-color: #EBEBEB;
-
+  --bgcolor: #EBEBEB;
+  --vermelhoescuro:#950303 ;
+  --vermelhoclaro:#c91212;;
 }
+
 main{
-  background-color: var(--bg-color);
+  background-color: var(--bgcolor);
 }
-
 
   /* Header na parte superior */
   .header-top {
-    background-color: #c91212; /* Primeira cor de vermelho */
-    color: #ffffff; /* Cor do texto */
+    background-color: var(--vermelhoclaro); 
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding: 30px;
     width: 100%;
-    padding: 30px 120px 30px 120px;
+    padding: 10px 40px ;
   }
   .header-top__logo {
-   
+   text-decoration: none;
     width: 400px;
     display: flex;
     align-items: center;
@@ -84,14 +94,13 @@ main{
   /* Header na parte inferior */
   /* ======================== */
   .header-bottom {
-    background-color: #950303; 
+    background-color:var(--vermelhoescuro); 
     color: #FFFFFF; 
     padding: 10px;
     font-size: 1.3rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
   }
   
   .header-bottom ul {
@@ -115,71 +124,64 @@ main{
     transition: all 0.1s;
   }
   .header-bottom a:hover {
-    
-    border-bottom: 3px  solid #fff7f7;
+    color: #f1f1f1;
+    border-bottom: 3px  solid #e5e5e5;
   }
   
-
-
 
   /* Estilos para a seção de depoimentos */
 .depoimentos {
-    background-color: #edebeb; /* Cor de vermelho para a seção de depoimentos */
+    background-color: #edebeb; 
     padding: 20px;
     text-align: center;
-   
   }
   
   .depoimentos__titulo {
-    color: #ff0000; 
+    color: var(--vermelhoclaro); 
     font-size: 2.5rem;
+    margin-top: 30px;
+  }
     
-     }
-  
   .depoimentos__cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     
-    gap: 130px;
+    gap: 50px;
     flex-wrap: wrap;
-    margin: 50px 0px 50px 0px;
+    margin: 20px 0px 50px 0px;
   }
 
   .cards {
     background-color: rgb(255, 255, 255);
     padding: 33px;
-    width: 330px;
+    width: 380px;
     height: 600px;
-   box-shadow: 10px 5px 5px rgb(255, 0, 0);
+    box-shadow: 10px 10px  rgb(255, 0, 0);
     display: flex;
-    
-    border-radius: 13px;
+    border-radius: 10% ;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    transition: 0.5s;
-    
+    transition: 0.5s;  
 }
 .cards:hover{
     transform: scale(1.05);
-    
+    color: #FFFFFF;
 }
 
-
   .cards h3 {
-    color: #cb1515; 
-    
+    color: var(--vermelhoclaro); 
   }
   .cards p {
     color: #000000; 
     font-size: 1rem;
   }
 
-  
-
-  
+.footer-card{
+  margin-top: 50px;
+}
   
 .mural {
     background-color: #EBEBEB; 
@@ -187,14 +189,14 @@ main{
   }
   
   .mural__titulo {
-    color: #ff0000; 
-
+    color: var(--vermelhoclaro); 
+    font-size: 2.5rem;
   }
   
   .mural__imagens {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 200px); 
+    grid-template-rows: repeat(2, 300px); 
     gap: 10px; 
     margin-top: 20px;
     margin-left: 300px;
@@ -210,7 +212,7 @@ main{
 
   /* Estilos para o footer */
 .footer {
-    background-color: #CC0000; 
+    background-color: var(--vermelhoclaro);
     padding: 20px;
     color: #FFFFFF; 
     text-align: center;
