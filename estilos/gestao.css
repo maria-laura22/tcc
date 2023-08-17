@@ -15,7 +15,7 @@ body {
 .login-container {
     position: relative;
     height: 100%;
-    background-image: url(img/60\ anos\ AA\ 029.jpg); /* Insira aqui o caminho para sua imagem de fundo */
+    background-image: url(../img/60\ anos\ AA\ 029.jpg); 
     background-size: cover;
     background-position: center;
 }
