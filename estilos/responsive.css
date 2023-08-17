@@ -96,9 +96,12 @@
 
 
 
-/*========================================*/
-/*========================================*/
+
+
   @media screen and (min-width:769px) and (max-width: 1024px) {
+
+/*========================================*/ 
+/*==========TELA DE INICIO================*/ 
     .cards {
       width: 660px;
       height: 370px;
@@ -168,6 +171,12 @@
       width: 40px;
     }  
   }
+
+
+
+
+
+
 /*========================================*/
 /*========================================*/
 
@@ -356,5 +365,55 @@
    .mural__titulo{
     font-size: 1.8rem;
    }
+
+/*========================================*/ 
+/*==========TELA DE GESTAO================*/
+.login-box {
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 10rem;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+
+.area-text{
+  font-size:10rem;
+}
+input[type="email"],
+input[type="password"] {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot-password {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.login-button {
+  padding: 20px 40px;
+  font-size: 1.2rem;
+}
+  
+  
+  
 }
 

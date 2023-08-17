@@ -4,13 +4,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     overflow:hidden;
     height: 100vh;
-    
   }
-
-/* gestao css - mudar depois para um arquivo separado */
 
 .login-container {
     position: relative;
@@ -36,23 +32,23 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    width: 800px;
+    width: 500px;
     align-items: center;
     justify-content: center;
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     margin-bottom: 10px;
 }
 
 .slogan {
-    font-size: 3rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
 .area-text {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
@@ -67,7 +63,6 @@ input[type="password"] {
     color: red;
     display:flex ;
     flex-direction: column;
-    
 }
 form{
     display: flex;
@@ -80,7 +75,7 @@ form{
     text-decoration: underline;
     cursor: pointer;
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .login-button {
@@ -88,7 +83,7 @@ form{
     color: white;
     border: none;
     border-radius: 15px;
-    padding: 20px 40px;
+    padding: 10px 20px;
     font-size: 1.2rem;
     cursor: pointer;
     transition: 0.8s;
