@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+  --bg-color: #EBEBEB;
+
+}
+
+  body {
+  font-family: Arial, sans-serif;
+  overflow-x:hidden;
+  height: 100vh;
+  }
+  
+  /* Header na parte superior */
+  .header-top {
+    background-color: #b44545; /* Primeira cor de vermelho */
+    color: #ffffff; /* Cor do texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+  }
+  .header-top__logo {
+    
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #0d00ff;
+  }
+  
+  .header-top__logo h1 {
+    width: 300px;
+    text-align: center;
+    background-color: #CC0000;
+    
+  }
+
+
+  .header-top__logo img {
+    width: 80px;
+    height: 80px; 
+    
+  }
+  
+  
+  .header-top__gestion a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  /* Header na parte inferior */
+  .header-bottom {
+    background-color: #CC0000; /* Segunda cor de vermelho */
+    color: #FFFFFF; /* Cor do texto */
+    padding: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .header-bottom ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  
+  .header-bottom li {
+    margin: 0 10px;
+    
+  }
+  
+  .header-bottom a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+.titulo-eventos  {
+   text-align: center;
+   margin: 50px;
+
+}
+
+.titulo-eventos h2{
+    color: #CF2727;
+    font-size: 50px;
+}
+
+main{
+
+    width: 100%;
+    height: 800px;
+   
+}
+
+.container-2{
+   
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    gap:23%;
+    
+    
+}   
+
+.bloco-1{
+    background-color: coral;
+    width: 400px;
+    height: 240px;
+    border-radius: 23px;
+}
+
+.bloco-2{
+    background-color: rgb(100, 44, 23);
+    width: 400px;
+    height: 240px;
+    border-radius: 23px;
+}
+
+.container-2 img{
+    width: 400px;
+    height: 240px;
+    border-radius: 23px;
+}
+
+p{
+    font-size: 27px;
+    color: #FF3131;
+}
+
+
+
+.btn-link{
+    text-decoration: none;
+    border: 1px solid #000;
+    width: 140px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color:#FF3131;
+    color:#fff;
+    border-radius: 10px;
+    height: 40px;
+    
+   
+
+}
+
+
+
+.parte-2{
+
+  width: 100%;
+  height: 400px;
+
+}
+
+.bloco-setembro img{
+  background-color: yellow;
+  width: 220px;
+  height: 140px;
+  border-radius: 23px;
+  margin-left: 300px;
+  
+
+
+}
+
+.bloco-setembro p{
+  color:#FF3131;
+  font-size: 21px;
+  margin-bottom: 0px;
+ 
+  
+}
+
+.bloco-setembro{
+  display: flex;
+
+}
+
+
+.titulo-bnt{
+  height: 150px;
+  width: 200px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+ gap:23px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.titulo-bnt a{
+  font-size: 12px;
+ 
+
+ 
+}
+
+.bloco-roda img{
+  background-color: yellow;
+  width: 220px;
+  height: 140px;
+  border-radius: 23px;
+  margin-left: 300px;
+
+}
+
+.bloco-roda p{
+  color:#FF3131;
+  font-size: 21px;
+  margin-bottom: 0px;
+  
+}
+
+
+.bloco-roda{
+  display: flex;
+
+}
+
+.bloco-maes img{
+  background-color: yellow;
+  width: 220px;
+  height: 140px;
+  border-radius: 23px;
+  margin-left: 300px;
+
+}
+
+
+.bloco-maes p{
+  color:#FF3131;
+  font-size: 21px;
+  margin-bottom: 0px;
+}
+
+.bloco-maes{
+  display: flex;
+
+}
+
+.bloco-palestras img{
+  background-color: yellow;
+  width: 220px;
+  height: 140px;
+  border-radius: 23px;
+  margin-left: 300px;
+
+}
+
+.bloco-palestras p{
+  color:#FF3131;
+  font-size: 21px;
+  margin-bottom: 0px;
+  width: 330px;
+}
+
+.bloco-palestras{
+  display: flex;
+
+}
+
+.footer {
+  background-color: #CC0000; /* Cor de vermelho para o footer */
+  padding: 20px;
+  color: #FFFFFF; /* Cor do texto no footer */
+  text-align: center;
+  height: 300px;
+  margin-top: 600px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.footer__contact p {
+  margin: 5px 0;
+}
+
+.footer__social {
+  margin-top: 20px;
+}
+
+.footer__social img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+
+
+
