@@ -100,11 +100,10 @@
 /*========================================*/
   @media screen and (min-width:769px) and (max-width: 1024px) {
     .cards {
-      width: 700px; 
-      height: 300px;
-      display: flex; 
-      
-    }
+      width: 660px;
+      height: 370px;
+      display: flex;
+  } 
     .depoimentos__cards{
       gap: 50px;
       margin-top: 20px;
@@ -179,9 +178,10 @@
 /*========================================*/
   @media screen and (min-width: 481px) and (max-width: 768px){
     .cards {
-      width: 600px; 
-      height: 400px;
+      width: 500px; 
+      height: 520px;
       display: flex;
+      font-size: 1rem;
      }   
 
      .depoimentos__cards {
@@ -193,12 +193,6 @@
       font-size: 2rem;
      }
 
-     .mural__imagens {
-      margin: 20px 80px 0px 80px;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 250px);
-     }
-
      .header-top { 
       display: flex;
       justify-content: space-between;
@@ -206,7 +200,7 @@
       flex-direction: row;
       width: 100%;
       gap: 25px;
-     padding: 10px 30px;
+      padding: 10px 30px;
     }
   
     .header-top__logo {
@@ -215,8 +209,6 @@
       align-items: center;
       justify-content: flex-start;
       gap: 0px;
-     
-     
     }
     
     .header-top__logo h1 {
@@ -231,7 +223,7 @@
     }
   
     .header-bottom ul{
-      gap: 30px;
+      gap: 8px;
       font-size: 1rem;
     }
   
@@ -254,6 +246,14 @@
       width: 35px;
     }
 
+    .mural__imagens {
+      margin: 20px 40px 0px 40px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 150px);
+     }
+     .mural__titulo{
+      font-size: 1.8rem;
+     }
   }
 /*========================================*/
 /*========================================*/
@@ -311,8 +311,6 @@
     align-items: center;
     justify-content: flex-start;
     gap: 0px;
-    
-   
   }
   
   .header-top__logo h1 {

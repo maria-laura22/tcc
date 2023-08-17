@@ -203,7 +203,7 @@ body{
     }
   }
   @media (max-width: 600px) {
-    .main-card .cards .card{
+    .main-card .cards-sobre .card{
       /* margin: 20px 0 10px 0; */
       width: 100%;
     }
