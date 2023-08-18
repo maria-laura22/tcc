@@ -166,7 +166,7 @@ main{
 .cards:hover{
     transform: scale(1.05);
     color: #FFFFFF;
-    rotate: 0.5deg;
+
 }
 
   .cards h3 {
